@@ -80,8 +80,8 @@ while True:
     opcao = input("Escolha uma opção: ")
 
     if opcao == "1":
-        titulo = input("Informe o título: ")
-        autor = input("Informe o autor: ")
+        titulo = input("Informe o Título: ")
+        autor = input("Informe o Autor: ")
         ano = int(input("Informe o ano de publicação: "))
         quantidade = int(input("Informe a quantidade: "))
 
