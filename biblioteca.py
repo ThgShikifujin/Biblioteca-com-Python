@@ -37,8 +37,7 @@ class Biblioteca:
                         livro.disponivel = False
                     print(f"O livro '{livro.titulo}' foi emprestado.")
                 else:
-                    print(
-                        f"Desculpe, já não há mais cópias do livro '{livro.titulo}' disponíveis.")
+                    print(f"Desculpe, já não há mais cópias do livro '{livro.titulo}' disponíveis.")
                 return
         print(f"O livro '{titulo_livro}' não foi encontrado.")
 
@@ -57,10 +56,10 @@ class Biblioteca:
         for livro in self.livros:
             if livro.titulo.lower() == titulo_livro.lower():
                 print(f"""Livro encontrado: 
-                      Titulo: {livro.titulo}
-                      Autor: {livro.autor}
-                      Ano: {livro.ano}
-                      Disponíveis {livro.quantidade}""")
+Titulo: {livro.titulo}
+Autor: {livro.autor}
+Ano: {livro.ano}
+Disponíveis {livro.quantidade}""")
                 return
         print("Livro não encontrado!")
 
